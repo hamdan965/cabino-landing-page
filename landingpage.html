@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page | Cabino</title>
+    <link rel="icon" href="images/block.svg" type="image/icon type">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Ajax library for jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <body style="margin: 0; font-family: 'Poppins'; font-weight: 300; background-color: #d9d9d9;">
+        <header>
+          <div class="header">
+          <a href="" class="logo"><img src="images/logo.png" alt="logo"></a>
+          <a href="tel:9072-80-3004"><button class="btn">Contact Now</button></a>
+          </div>
+        </header>
+        <div class="container" style="padding-top: 2em;">
+          <form action="" class="form-contact" id="submit-form1" >
+              <h3>ENQUIRY FORM</h3>
+              <input type="text" placeholder="Name" id="name" autocomplete="off" name="fullname">
+              <input type="email" placeholder="Email" id="Email" autocomplete="off" name="email">
+              <input type="text" placeholder="Phone" id="Phone" autocomplete="off" name="phoneNumber">
+              <select class="option1" id="wa_select" name="Services">
+              <option id="services" hidden='hidden' selected='selected' value='default'>Services</option>
+              <option id="CP"value="Corporate Photography">Corporate Photography</option>
+              <option id="CE"value="Corporate Events">Corporate Events</option>
+              <option id="Photo"value="Photography">Photography</option>
+              <option id="AP" value="Adds and Promotion">Adds and Promotion</option>
+              <option id="OS" value="Other Services">Other Services</option>
+              </select>
+              <input type="submit" value="Submit" id="btnform1">
+          </form>
+        </div>
+          <section style="margin-left: 10%;">
+              <div class="aboutus">
+                  <h2 >About Us</h2>
+                  <hr >
+                  <p>Cabino have worked with clients from diverse industries.<br>
+                    Our experience has helped us understand our clients needs<br>
+                    perfectly and deliver beyond their expectation.<br>
+                    Our interaction and partnerships with clients from various <br>
+                    industries and backgrounds has expanded our knowledge <br>
+                    and understanding of their art of photography. 
+                    <br>
+                  </p>
+              </div>
+          </section>
+          </div>
+          <div class="our-sect" style="padding-left: 7.5%; padding-top: 1.5%;">
+            <div class="servhead" style="margin-left:3%;">
+              <h2 style="font-weight: 300;">Our Services</h2>
+            <hr style="width: 20%; margin: 0;">
+            </div>
+            <div class="our-services" >
+              <div class="serv">
+                <div class="serviceimg">
+                  <img src="images/corporate.svg" alt="">
+                </div>
+                <div class="serviceitem" style="display: inline-block; margin: 0;">                
+                   <h2>Corporate Photography</h2>
+                  <p>Corporate Photography, Corporate Videos, <br>Corporate Headshot
+                    Photography, Business Potrait Photography, Etc.
+                  </p>
+                </div>
+              </div>
+              <div class="serv" >
+                <div class="serviceimg">
+                  <img src="images/events.svg" alt="cabino-events-photo">
+                </div>
+                <div class="serviceitem" style="display: inline-block;">                  
+                  <h2>Corporate Events</h2>
+                  <p>Conference, Trade Show, Product Launches, Dealers Meets,<br>
+                  Franchise Meet, Entertainment, Exhibitions.
+                  </p>
+                </div>
+              </div>
+              <div class="serv" style="padding-right: 4.4em;">
+                <div class="serviceimg">
+                  <img src="images/camera.svg" alt="cabino-events-photo">
+                </div>
+                <div class="serviceitem" style="display: inline-block;">                  
+                  <h2>Photography</h2>
+                  <p>Modelling Photography, Kids Photography,<br>
+                    Food Photography, Event Photography,
+                    Fashion Photography ,Etc.
+                  </p>
+                </div>
+              </div>
+              <div class="serv" id="servi-2">
+                <div class="serviceimg">
+                  <img src="images/ads.svg" alt="cabino-events-photo">
+                </div>
+                <div class="serviceitem" style="display: inline-block;">
+                  <h2>Ads & Promotion</h2>
+                  <p>Corporate Movies, TV Commercials,<br>
+                    Product Shoots, Portfolio Making, Etc.
+                  </p>
+                </div>
+              </div>
+              <div class="serv" id="serv-2">
+                <div class="serviceimg">
+                  <img src="images/otherservice.svg" alt="cabino-events-photo">
+                </div>
+                <div class="serviceitem" style="display: inline-block;">
+                  <h2>Other Service </h2>
+                  <p>Venue Hunting, Awards & Celebration, Celebrity Management,<br> Entertainment, Anchoring & Hosting, Sound & Light Management.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div><div class="container1">
+            <h1 class="form-title">ENQUIRY FORM</h1>
+            <form action="" id="submit-form2">
+              <div class="main-user-info">
+                <div class="user-input-box">
+                  <input type="text" id="fullName" name="fullname" placeholder="Name"/>
+                </div>
+                <div class="user-input-box">
+                  <input type="email" id="email"  name="email"  placeholder="Email"/>
+                </div>
+                <div class="user-input-box">
+                  <input type="text"  id="phoneNumber"  name="phoneNumber"  placeholder="Phone Number"/>
+                </div>
+                <div class="user-input-box">
+                  <select id="options" class="options" id="wa_select1" name="Services">
+                    <option class="services1" id="services1" hidden='hidden' selected='selected' value='default'>Services</option>
+                    <option id="CP1"value="Corporate Photography">Corporate Photography</option>
+                    <option id="CE1"value="Corporate Events">Corporate Events</option>
+                    <option id="Photo1"value="Photography">Photography</option>
+                    <option id="AP1" value="Adds and Promotion">Adds and Promotion</option>
+                    <option id="OS1" value="Other Services">Other Services</option>
+                    </select>
+                </div>
+              </div>
+              <div class="form-submit-btn">
+                <input type="submit" value="Submit" id="btnlst">
+              </div>
+
+          </form>
+          </div>
+          <footer style="background-color: #0D432F; padding: 2em 0 1em 10%; color: white; display: flex; flex-direction: row; flex-wrap: wrap-reverse;">
+            <div class="foot">
+                <p>
+                Head Office :<br>
+                <span>1st Floor, 6/822D1 YMCA Cross Road</span><br>
+                Kozhikode, Kerala, 673001
+                </p>
+                <hr>
+                <p>
+                Contact :<br>
+                <span>9072 80 3004</span><br>
+                <span style="font-weight: lighter; font-size: 1em;">official.cabino@gmail.com</span>
+                </p>
+                <hr>
+                <div style="display: flex; flex-direction: row;">
+                  <p>
+                    <span style="font-weight:100; font-size: 0.7em;">Copyright © 2022 </span>
+                  </p>
+                  <img id="footlogo" src="images/logo-white.svg" alt="white logo">
+                </div>
+            </div>
+            <div class="social-icons">
+          <a href="https://www.facebook.com/people/Cabino-In/100088060036416/"><img src="images/facebook.svg" alt="facebook"></a>
+          <a href="https://www.instagram.com/cabino.in/"><img src="images/instagram.svg" alt="instagram"></a>
+          <a href=""><img src="images/whatsapp.svg" alt="whatsapp"></a>
+          <a href="https://twitter.com/CabinoOfficial"><img src="images/twitter.svg" alt="twitter"></a>
+          <a href=""><img src="images/youtube.svg" alt="youtube"></a>
+          <a href="https://www.linkedin.com/in/cabino-undefined-79b479260/"><img src="images/linkedin.svg" alt="linkedin"></a>
+          <a href=""><img src="images/pinterest.svg" alt="pinterest"></a>
+          </div>
+          </footer>
+          <script src="formjs.js"></script>
+</body>
+</html>
+
+
